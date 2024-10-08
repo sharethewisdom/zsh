@@ -7,6 +7,8 @@
 !.zprofile
 !.zshenv
 !README.md
+!zsh-dark.png
+!zsh-light.png
 !complete
 !functions
 !git-prompt.zsh
