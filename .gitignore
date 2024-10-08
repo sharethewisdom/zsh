@@ -6,7 +6,7 @@
 !.zlogin
 !.zprofile
 !.zshenv
-!cache
+!README.md
 !complete
 !functions
 !git-prompt.zsh
