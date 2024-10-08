@@ -1,0 +1,14 @@
+*
+!.gitignore
+!.gitmodules
+!.zshrc
+!.profile
+!.zlogin
+!.zprofile
+!.zshenv
+!cache
+!complete
+!functions
+!git-prompt.zsh
+!zsh-autosuggestions
+!zsh-no-ps2
