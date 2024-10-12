@@ -231,7 +231,11 @@ if (( $+commands[htop] )); then
 fi
 
 function ls (){
-  command ls -l --group-directories-first --color=auto "$@"
+  if [[ $1 == "-h" ]]; then
+    command ls --help
+  else
+    command ls -l --group-directories-first --color=auto --human-readable "$@"
+  fi
 }
 
 cdpath() {
