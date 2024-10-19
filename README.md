@@ -19,5 +19,5 @@ echo 'source $ZDOTDIR/.zshenv' >> "$HOME/.zshenv"
 optionally, symlink the bash-compatible `.zprofile` to `~/.profile`
 
 ```sh
-ln -s ~/.profile $ZDOTDIR/.zprofile
+ln -s $ZDOTDIR/.zprofile ~/.profile
 ```
