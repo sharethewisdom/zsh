@@ -237,6 +237,13 @@ function ls (){
     command ls -l --group-directories-first --color=auto --human-readable "$@"
   fi
 }
+function free (){
+  if [[ $1 == "-h" ]]; then
+    command free --help
+  else
+    command free --human "$@"
+  fi
+}
 
 cdpath() {
   local dir=$PWD
