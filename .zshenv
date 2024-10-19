@@ -1,7 +1,6 @@
 # "${ZDOTDIR}/.zshenv"
 skip_global_compinit=1
 
-export ZDOTDIR=${XDG_CONFIG_HOME}/zsh
 export HISTFILE=${XDG_DATA_HOME}/zsh/history
 export HISTSIZE=10000000
 export SAVEHIST=10000000
